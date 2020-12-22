@@ -1,0 +1,130 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright_Yellow: hsl(71, 73%, 54%);
+    --Light_Gray: hsl(204, 43%, 93%);
+    --Grayish_Blue: hsl(218, 22%, 67%);
+    --color_a: hsl(228, 45%, 44%);
+    --CyanWhite: rgb(74, 190, 189);
+}
+
+body {
+    background-color: var(--Light_Gray);
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 100px;
+    max-width: 800px;
+}
+
+.divTop {
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+h4 {
+    color: var(--Cyan);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: var(--Bright_Yellow);
+    font-weight: 700;
+}
+
+.divTop p {
+    color: var(--Grayish_Blue);
+    width: 87%;
+    margin-bottom: 30px;
+}
+
+.divLeft {
+    background-color: var(--Cyan);
+    color: white;
+    border-bottom-left-radius: 10px;
+}
+
+.margin {
+    margin-left: 30px;
+}
+
+.divLeft h6 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.divLeft strong {
+    font-size: 34px;
+}
+
+.divLeft span {
+    color: var(--Light_Gray);
+    padding-top: 14px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.divLeft p {
+    color: var(--Light_Gray);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.divLeft button {
+    background-color: var(--Bright_Yellow);
+    color: white;
+    width: 80%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.divLeft button:hover{
+    color:white;
+    opacity:0.8;
+}
+
+.divRight {
+    background-color: var(--CyanWhite);
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+
+    .divRight h6 {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .divRight ul {
+        color: var(--Light_Gray);
+        list-style-type: none;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+    .attribution a {
+        color: var(--color_a);
+    }
+
+@media screen and (max-width: 576px) {
+    .divLeft{
+        border-bottom-left-radius: 0px;
+    }
+
+    .divRight{
+        border-bottom-left-radius: 10px;
+    }
+}
